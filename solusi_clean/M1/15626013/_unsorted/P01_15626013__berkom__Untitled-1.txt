@@ -1,0 +1,6 @@
+# NIM/Nama : 15626013/Natali Stela Br Sinaga
+# Tanggal : 30 SEptember 2026
+# Deskripsi : Menghitung Biaya Listrik
+
+#kamus
+# watt : float #daya_lampu () 

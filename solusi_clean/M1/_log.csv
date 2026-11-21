@@ -1,0 +1,178 @@
+﻿nim,zip,file_dalam_zip,ditaruh_di,nama_zip_ok,nama_file_ok,catatan
+15426125,15426125-P01_15426125.zip,P01_15426125_01.py,soal1,True,True,
+15426125,15426125-P01_15426125.zip,P01_15426125_02.py,soal2,True,True,
+15426125,15426125-P01_15426125.zip,P01_15426125_03.py,soal3,True,True,
+15426127,15426127-P01_15426127_01.zip,P01_15426127_01.txt,soal1,False,False,"bukan .py (txt/tanpa ekstensi), cek apakah isinya kode"
+15426127,15426127-P01_15426127_01.zip,P01_15426127_03.txt,soal3,False,False,"bukan .py (txt/tanpa ekstensi), cek apakah isinya kode"
+15426127,15426127-P01_15426127_01.zip,P01_15426127_02.txt,soal2,False,False,"bukan .py (txt/tanpa ekstensi), cek apakah isinya kode"
+15426128,15426128-P01_15426128.zip,P01_15426128_01.py,soal1,True,True,
+15426128,15426128-P01_15426128.zip,P01_15426128_03.py,soal3,True,True,
+15426128,15426128-P01_15426128.zip,P01_15426128_02.py,soal2,True,True,
+15426129,15426129-P01_15426129.zip.zip,P01_15426129_01.py,soal1,False,True,
+15426129,15426129-P01_15426129.zip.zip,P01_15426129_02.py,soal2,False,True,
+15426129,15426129-P01_15426129.zip.zip,P01_15426129_03.py,soal3,False,True,
+15426130,15426130-Praktikum Berkom.zip,Praktikum Berkom/P01_15426130_01.zip!/P01_15426130_01.py,soal1,False,True,dalam folder/zip bersarang
+15426130,15426130-Praktikum Berkom.zip,Praktikum Berkom/P01_15426130_02.zip!/P01_15426130_02.py,soal2,False,True,dalam folder/zip bersarang
+15426130,15426130-Praktikum Berkom.zip,Praktikum Berkom/P01_15426130_03.zip!/P01_15426130_03.py,soal3,False,True,dalam folder/zip bersarang
+15426131,15426131-P01_15426131.zip,P01_15426131_01.py,soal1,True,True,
+15426131,15426131-P01_15426131.zip,P01_15426131_03.py,soal3,True,True,
+15426131,15426131-P01_15426131.zip,P01_15426131_02.py,soal2,True,True,
+15626002,15626002-P01_15626002.zip,P01 NIM 01/P01 NIM 01.py,soal1,True,False,dalam folder/zip bersarang
+15626002,15626002-P01_15626002.zip,P01 NIM 01/P01 NIM 03.zip!/P01 NIM 03.py,soal3,True,False,dalam folder/zip bersarang
+15626002,15626002-P01_15626002.zip,P01 NIM 02/P01 NIM 02.py,soal2,True,False,dalam folder/zip bersarang
+15626002,15626002-P01_15626002.zip,P01 NIM 02/P01 NIM 03.zip!/P01 NIM 03.py,duplikat,True,False,identik dgn P01 NIM 01/P01 NIM 03.zip!/P01 NIM 03.py
+15626002,15626002-P01_15626002.zip,P01 NIM 03/P01 NIM 03.py,duplikat,True,False,identik dgn P01 NIM 01/P01 NIM 03.zip!/P01 NIM 03.py
+15626002,15626002-P01_15626002.zip,P01 NIM 03/P01 NIM 01.zip!/P01 NIM 01.py,duplikat,True,False,identik dgn P01 NIM 01/P01 NIM 01.py
+15626002,15626002-P01_15626002.zip,P01 NIM 03/P01 NIM 01.zip!/P01 NIM 03.zip!/P01 NIM 03.py,duplikat,True,False,identik dgn P01 NIM 01/P01 NIM 03.zip!/P01 NIM 03.py
+15626004,15626004-P01_15626004.zip,P02_15626004_02.py,_unsorted,True,False,prefix modul lain (P02)
+15626004,15626004-P01_15626004.zip,P01_15626004_01.py,soal1,True,True,
+15626004,15626004-P01_15626004.zip,P01_15626004_03.py,soal3,True,True,
+15626005,15626005-P01_15626005.py.zip,P01_15626005_02.py.zip!/konsentrasi_uprak1.py,soal1,False,False,dalam folder/zip bersarang
+15626005,15626005-P01_15626005.py.zip,"P01_NIM_01,py.zip!/biaya listrik.py",_unsorted,False,False,dalam folder/zip bersarang; nomor soal tidak jelas
+15626005,15626005-P01_15626005.py.zip,P01_15626003_03_REVISI.py.zip!/uprak01_upah.py,_unsorted,False,False,dalam folder/zip bersarang; bentrok (isi beda) dgn P01_15626005_02.py.zip!/konsentrasi_uprak1.py
+15626006,15626006-P01_15626006.zip,P01_15626006_03.py,soal3,True,True,
+15626006,15626006-P01_15626006.zip,P01_15626006_01.py,soal1,True,True,
+15626006,15626006-P01_15626006.zip,P01_15626006_02.py,soal2,True,True,
+15626008,15626008-P02_15626008_02.zip,P02_15626008_02.py,_unsorted,False,False,prefix modul lain (P02)
+15626010,15626010-P01_15626010.zip,P01_15626010_03.py,soal3,True,True,
+15626010,15626010-P01_15626010.zip,P01_15626010_02.py,soal2,True,True,
+15626010,15626010-P01_15626010.zip,P01_15626010_01.py,soal1,True,True,
+15626011,15626011-P01_15626011.zip,P01_15626011/P01_15626011_Nomor 1.py,soal1,True,False,dalam folder/zip bersarang
+15626011,15626011-P01_15626011.zip,P01_15626011/P01_15626011_Nomor 2.py,soal2,True,False,dalam folder/zip bersarang
+15626011,15626011-P01_15626011.zip,P01_15626011/P01_15626011_Nomor 3.py,soal3,True,False,dalam folder/zip bersarang
+15626012,15626012-P01_15626012.zip,P01_15626012_02.py,soal2,True,True,
+15626012,15626012-P01_15626012.zip,P01_15626012_03.py,soal3,True,True,
+15626012,15626012-P01_15626012.zip,P01_15626012_01.py,soal1,True,True,
+15626015,15626015-P01_15626015.zip,P01_15626015_01.py,soal1,True,True,
+15626015,15626015-P01_15626015.zip,P01_15626015_02.py,soal2,True,True,
+15626015,15626015-P01_15626015.zip,P01_15626015_03.py,soal3,True,True,
+15626016,15626016-P01_15626016.py.zip,P01_15626016_03.py.py,soal3,False,False,
+15626016,15626016-P01_15626016.py.zip,P01_15626016_02.py.py,soal2,False,False,
+15626016,15626016-P01_15626016.py.zip,P01_15626016_01.py.py,soal1,False,False,
+15626017,15626017-P01_15626017.zip,P01_15626017_01.py,soal1,True,True,
+15626017,15626017-P01_15626017.zip,P01_15626017_03.py,soal3,True,True,
+15626017,15626017-P01_15626017.zip,P01_15626017_02.py,soal2,True,True,
+15626018,15626018-P01_15626018.zip,P01_15626018/P01_15626018_01.py,soal1,True,True,dalam folder/zip bersarang
+15626018,15626018-P01_15626018.zip,P01_15626018/P01_15626018_02.py,soal2,True,True,dalam folder/zip bersarang
+15626018,15626018-P01_15626018.zip,P01_15626018/P01_15626018_03.py,soal3,True,True,dalam folder/zip bersarang
+15626019,15626019-P01_[15626019].zip,Problem 1.py,soal1,False,False,
+15626019,15626019-P01_[15626019].zip,Problem 2.py,soal2,False,False,
+15626019,15626019-P01_[15626019].zip,Problem 3.py,soal3,False,False,
+15626021,15626021-PO1_15626021_02.zip,PO1_15626021_02.py,soal2,False,False,
+15626021,15626021-PO1_15626021_02.zip,PO1_15626021_03.py,soal3,False,False,
+15626021,15626021-PO1_15626021_02.zip,PO1_15626021_01.py,soal1,False,False,
+15626023,15626023-P01_15626023_py.zip,P0_15626023_03py.py,soal3,False,False,
+15626023,15626023-P01_15626023_py.zip,P01_15626023_01.py,soal1,False,True,
+15626023,15626023-P01_15626023_py.zip,P01_15626023_02.py,soal2,False,True,
+15626024,15626024-P01_15626024.zip,P01_15626024_03.py,soal3,True,True,
+15626024,15626024-P01_15626024.zip,P01_15626024_01.py,soal1,True,True,
+15626024,15626024-P01_15626024.zip,P01_15626024_02.py,soal2,True,True,
+15626025,15626025-P01_15626025_ZIP.zip,P01_15626025/P01_15626025_01.py,soal1,False,True,dalam folder/zip bersarang
+15626025,15626025-P01_15626025_ZIP.zip,P01_15626025/P01_15626025_02.py,soal2,False,True,dalam folder/zip bersarang
+15626025,15626025-P01_15626025_ZIP.zip,P01_15626025/P01_15626025_03.py,soal3,False,True,dalam folder/zip bersarang
+15626027,15626027-P01_15626027.zip,P01_15626027_03.py,soal3,True,True,
+15626027,15626027-P01_15626027.zip,P01_15626027_02.py,soal2,True,True,
+15626027,15626027-P01_15626027.zip,P01_15626027_01.py,soal1,True,True,
+15626031,15626031-python testing.zip,python testing/p01_15626031/p01_15625031_02.py,soal2,False,False,dalam folder/zip bersarang
+15626031,15626031-python testing.zip,python testing/p01_15626031/p01_15626031_01.py,soal1,False,False,dalam folder/zip bersarang
+15626031,15626031-python testing.zip,python testing/p01_15626031/p01_15626031_03.py,soal3,False,False,dalam folder/zip bersarang
+15626031,15626031-python testing.zip,python testing/p01_15626031.zip!/p01_15626031/p01_15625031_02.py,duplikat,False,False,identik dgn python testing/p01_15626031/p01_15625031_02.py
+15626031,15626031-python testing.zip,python testing/p01_15626031.zip!/p01_15626031/p01_15626031_01.py,duplikat,False,False,identik dgn python testing/p01_15626031/p01_15626031_01.py
+15626031,15626031-python testing.zip,python testing/p01_15626031.zip!/p01_15626031/p01_15626031_03.py,duplikat,False,False,identik dgn python testing/p01_15626031/p01_15626031_03.py
+15626031,15626031-python testing.zip,python testing/p02_15626031/p02_15626031_1.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P02)
+15626031,15626031-python testing.zip,python testing/p02_15626031/p02_15626031_2.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P02)
+15626031,15626031-python testing.zip,python testing/p02_15626031/p02_15626031_3.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P02)
+15626031,15626031-python testing.zip,python testing/p02_15626031.zip!/p02_15626031/p02_15626031_1.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P02)
+15626031,15626031-python testing.zip,python testing/p02_15626031.zip!/p02_15626031/p02_15626031_2.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P02)
+15626031,15626031-python testing.zip,python testing/p02_15626031.zip!/p02_15626031/p02_15626031_3.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P02)
+15626031,15626031-python testing.zip,python testing/p03_15626031/p03_15626031_1.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P03)
+15626031,15626031-python testing.zip,python testing/p03_15626031/p03_15626031_2.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P03)
+15626031,15626031-python testing.zip,python testing/p03_15626031/p03_15626031_3.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P03)
+15626031,15626031-python testing.zip,python testing/p03_15626031.zip!/p03_15626031/p03_15626031_1.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P03)
+15626031,15626031-python testing.zip,python testing/p03_15626031.zip!/p03_15626031/p03_15626031_2.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P03)
+15626031,15626031-python testing.zip,python testing/p03_15626031.zip!/p03_15626031/p03_15626031_3.py,_unsorted,False,False,dalam folder/zip bersarang; prefix modul lain (P03)
+15626032,15626032-P01_15626032.zip,New folder/P01_15626032_01.py,soal1,True,True,dalam folder/zip bersarang
+15626032,15626032-P01_15626032.zip,New folder/p01_15626032_02.py,soal2,True,False,dalam folder/zip bersarang
+15626032,15626032-P01_15626032.zip,New folder/P01_15626032_03.py,soal3,True,True,dalam folder/zip bersarang
+15626033,15626033-P01_15626033.zip.zip,praktikum berkom.py,_unsorted,False,False,nomor soal tidak jelas
+15626034,15626034-P01_15626034.zip,P01_15626034_01.py,soal1,True,True,
+15626034,15626034-P01_15626034.zip,P01_15626034_03.py,soal3,True,True,
+15626034,15626034-P01_15626034.zip,P01_15626034_02.py,soal2,True,True,
+15626036,15626036-P01_15626036.zip,P01_15626036_01.py,soal1,True,True,
+15626036,15626036-P01_15626036.zip,P01_15626036_02.py,soal2,True,True,
+15626036,15626036-P01_15626036.zip,P01_15626036_03.py,soal3,True,True,
+15626037,15626037-P01_15626037.zip,P01_15626037_02.py,soal2,True,True,
+15626037,15626037-P01_15626037.zip,P01_15626037_01.py,soal1,True,True,
+15626037,15626037-P01_15626037.zip,P01_15626037_03.py,soal3,True,True,
+15626038,15626038-P01_15626038.zip,P01_15626038_03.py,soal3,True,True,
+15626038,15626038-P01_15626038.zip,P01_15626038_01.py,soal1,True,True,
+15626038,15626038-P01_15626038.zip,P01_15626038_02.py,soal2,True,True,
+15626039,15626039-P01_15626039.zip.zip,P01_15626039_01.py,soal1,False,True,
+15626039,15626039-P01_15626039.zip.zip,P01_15626039_02.Py,soal2,False,False,
+15626039,15626039-P01_15626039.zip.zip,P01_15626039_03.Py,soal3,False,False,
+15626041,15626041-P01_15626041.zip,P01_15626041_01.py,soal1,True,True,
+15626041,15626041-P01_15626041.zip,P01_15626041_02.py,soal2,True,True,
+15626041,15626041-P01_15626041.zip,P01_15626041_03.py,soal3,True,True,
+15626042,15626042-P01_15626042.zip,Praktikum berkom/P01_15626042_01.py.py,soal1,True,False,dalam folder/zip bersarang
+15626042,15626042-P01_15626042.zip,Praktikum berkom/P01_15626042_02.py.py,soal2,True,False,dalam folder/zip bersarang
+15626042,15626042-P01_15626042.zip,Praktikum berkom/P01_15626042_03.py.py,soal3,True,False,dalam folder/zip bersarang
+15626043,15626043-P01_15626043.zip,P01_15626043/P01_15626043.01.py,soal1,True,False,dalam folder/zip bersarang
+15626043,15626043-P01_15626043.zip,P01_15626043/P01_15626043.02.py,soal2,True,False,dalam folder/zip bersarang
+15626043,15626043-P01_15626043.zip,P01_15626043/P01_15626043.03.py,soal3,True,False,dalam folder/zip bersarang
+15626043,15626043-P01_15626043.zip,P01_15626043.01.zip!/P01_15626043.01.py,duplikat,True,False,identik dgn P01_15626043/P01_15626043.01.py
+15626043,15626043-P01_15626043.zip,P01_15626043.02.zip!/P01_15626043.02.py,duplikat,True,False,identik dgn P01_15626043/P01_15626043.02.py
+15626043,15626043-P01_15626043.zip,P01_15626043.03.zip!/P01_15626043.03.py,duplikat,True,False,identik dgn P01_15626043/P01_15626043.03.py
+15626044,15626044-P01_15626044.zip.zip,P01_15626044.zip/P01_15626044_01.py,soal1,False,True,dalam folder/zip bersarang
+15626044,15626044-P01_15626044.zip.zip,P01_15626044.zip/P01_15626044_02.py,soal2,False,True,dalam folder/zip bersarang
+15626044,15626044-P01_15626044.zip.zip,P01_15626044.zip/P01_15626044_03.py,soal3,False,True,dalam folder/zip bersarang
+15626047,15626047-P01_15626047.zip,P01_15626047_01.py,soal1,True,True,
+15626047,15626047-P01_15626047.zip,P01_15626047_02.py,soal2,True,True,
+15626047,15626047-P01_15626047.zip,P01_15626047_03.py,soal3,True,True,
+15626048,15626048-P01_15626048.zip,Problem 1.py,soal1,True,False,
+15626048,15626048-P01_15626048.zip,Problem 2.py,soal2,True,False,
+15626048,15626048-P01_15626048.zip,Problem 3.py,soal3,True,False,
+15626049,15626049-P01_15626049.zip,P01_15626049/P01_15626049_01.py,soal1,True,True,dalam folder/zip bersarang
+15626049,15626049-P01_15626049.zip,P01_15626049/P01_15626049_02.py,soal2,True,True,dalam folder/zip bersarang
+15626049,15626049-P01_15626049.zip,P01_15626049/P01_15626049_03.py,soal3,True,True,dalam folder/zip bersarang
+15626052,15626052-P01_15626052_py.zip,P01_15626052_py/P01_15626052.01.zip!/P01_15626052.01/(HASIL) P01_15626052.01.py,soal1,False,False,dalam folder/zip bersarang
+15626052,15626052-P01_15626052_py.zip,P01_15626052_py/P01_15626052.01.zip!/P01_15626052.01/P01_15626052.01.py,_unsorted,False,False,dalam folder/zip bersarang; bentrok (isi beda) dgn P01_15626052_py/P01_15626052.01.zip!/P01_15626052.01/(HASIL) P01_15626052.01.py
+15626052,15626052-P01_15626052_py.zip,P01_15626052_py/P01_15626052.01.zip!/P01_15626052_02.zip!/P01_15626052_02/(HASIL)P01_15626052_02.py,soal2,False,False,dalam folder/zip bersarang
+15626052,15626052-P01_15626052_py.zip,P01_15626052_py/P01_15626052.01.zip!/P01_15626052_02.zip!/P01_15626052_02/P01_15626052_02.py,_unsorted,False,True,dalam folder/zip bersarang; bentrok (isi beda) dgn P01_15626052_py/P01_15626052.01.zip!/P01_15626052_02.zip!/P01_15626052_02/(HASIL)P01_15626052_02.py
+15626052,15626052-P01_15626052_py.zip,P01_15626052_py/P01_15626052_02.zip!/P01_15626052_02/(HASIL)P01_15626052_02.py,duplikat,False,False,identik dgn P01_15626052_py/P01_15626052.01.zip!/P01_15626052_02.zip!/P01_15626052_02/(HASIL)P01_15626052_02.py
+15626052,15626052-P01_15626052_py.zip,P01_15626052_py/P01_15626052_02.zip!/P01_15626052_02/P01_15626052_02.py,_unsorted,False,True,dalam folder/zip bersarang; bentrok (isi beda) dgn P01_15626052_py/P01_15626052.01.zip!/P01_15626052_02.zip!/P01_15626052_02/(HASIL)P01_15626052_02.py
+15426126,P01_15426126.zip,python 1/P01_15426126_01.py,soal1,True,True,dalam folder/zip bersarang
+15426126,P01_15426126.zip,python 1/P01_15426126_02.py,soal2,True,True,dalam folder/zip bersarang
+15426126,P01_15426126.zip,python 1/P01_15426126_03.py,soal3,True,True,dalam folder/zip bersarang
+15426126,P01_15426126.zip,python 1/Problem 2.py,duplikat,True,False,identik dgn python 1/P01_15426126_02.py
+15626007,P01_15626007.zip,p01_15626007_ipy.py,_unsorted,True,False,nomor soal tidak jelas
+15626007,P01_15626007.zip,p01_15626007_py (1).py,soal1,True,False,
+15626007,P01_15626007.zip,p01_15626007_py.py,_unsorted,True,False,nomor soal tidak jelas
+15626008,P01_15626008.zip,P02_15626008_02.py,_unsorted,True,False,prefix modul lain (P02)
+15626008,P01_15626008.zip,P01_15626008_01.py,soal1,True,True,
+15626008,P01_15626008.zip,P03_15626008_03.py,_unsorted,True,False,prefix modul lain (P03)
+15626013,P01_15626013.zip,berkom/P0_15626013_01.py,soal1,True,False,dalam folder/zip bersarang
+15626013,P01_15626013.zip,berkom/P0_15626013_02.py,soal2,True,False,dalam folder/zip bersarang
+15626013,P01_15626013.zip,berkom/P0_15626013_03.py,soal3,True,False,dalam folder/zip bersarang
+15626013,P01_15626013.zip,berkom/Untitled-1.txt,_unsorted,True,False,"dalam folder/zip bersarang; bukan .py (txt/tanpa ekstensi), cek apakah isinya kode; bentrok (isi beda) dgn berkom/P0_15626013_01.py"
+15626020,P01_15626020.zip,Rudianto 15626020 30 September.ipynb,_unsorted,True,False,ipynb->py; nomor soal tidak jelas
+15626029,P01_15626029.zip,P01_15626019_01.py,soal1,True,False,
+15626029,P01_15626029.zip,P01_15626029_03.py,soal3,True,True,
+15626029,P01_15626029.zip,P01_15626029_02.py,soal2,True,True,
+15626030,P01_15626030.zip,_p01_15626030_01_py.py,soal1,True,False,
+15626030,P01_15626030.zip,_p01_15626030_02_p.py,soal2,True,False,
+15626030,P01_15626030.zip,p01_15626030_03_py.py,soal3,True,False,
+15626035,P01_15626035.zip,P01_15626035/BIAYA LISTRIK.ipynb,_unsorted,True,False,dalam folder/zip bersarang; ipynb->py; nomor soal tidak jelas
+15626035,P01_15626035.zip,P01_15626035/PROBLEM 2.ipynb,soal2,True,False,dalam folder/zip bersarang; ipynb->py
+15626035,P01_15626035.zip,P03_15626035.ipynb,_unsorted,True,False,ipynb->py; prefix modul lain (P03)
+15626040,P01_15626040.zip,Praktikum Berkom/P01_15626040_01.py,soal1,True,True,dalam folder/zip bersarang
+15626040,P01_15626040.zip,Praktikum Berkom/P01_15626040_02.py,soal2,True,True,dalam folder/zip bersarang
+15626040,P01_15626040.zip,Praktikum Berkom/P01_15626040_03.py,soal3,True,True,dalam folder/zip bersarang
+15626045,P01_15626045.zip,P01_15626045_02.py,soal2,True,True,
+15626045,P01_15626045.zip,P01_15626045_03.py,soal3,True,True,
+15626045,P01_15626045.zip,P01_15626045_01.py,soal1,True,True,
+15626046,P01_15626046.zip,p01_15626046 03/p01_15626046 03.txt,soal3,True,False,"dalam folder/zip bersarang; bukan .py (txt/tanpa ekstensi), cek apakah isinya kode"
+15626046,P01_15626046.zip,P1_15626046/P1_15626046.txt,_unsorted,True,False,"dalam folder/zip bersarang; bukan .py (txt/tanpa ekstensi), cek apakah isinya kode; nomor soal tidak jelas"
+15626046,P01_15626046.zip,P1_15626046 02/P1_15626046 02.txt,soal2,True,False,"dalam folder/zip bersarang; bukan .py (txt/tanpa ekstensi), cek apakah isinya kode"
+15626050,P01_15626050.zip,P01_15626050/P01_15626050_01.py,soal1,True,True,dalam folder/zip bersarang
+15626050,P01_15626050.zip,P01_15626050/P01_15626050_02.py,soal2,True,True,dalam folder/zip bersarang
+15626050,P01_15626050.zip,P01_15626050/P01_15626050_03.py,soal3,True,True,dalam folder/zip bersarang

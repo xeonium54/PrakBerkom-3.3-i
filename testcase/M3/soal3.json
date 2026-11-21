@@ -1,0 +1,72 @@
+{
+  "modul": 3,
+  "soal": 3,
+  "level": "Hard",
+  "nomor": 9,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "7",
+        "8 1 4 2 5 1 8",
+        "25"
+      ],
+      "prompts": [
+        "Masukkan panjang kebun:",
+        "Masukkan array ketinggian tanah:",
+        "Masukkan batas toleransi air:"
+      ],
+      "expected": "Total volume genangan air adalah 27. Kaktus Tuan Ky mati membusuk!",
+      "full": "Masukkan panjang kebun: 7 Masukkan array ketinggian tanah: 8 1 4 2 5 1 8 Masukkan batas toleransi air: 25 Total volume genangan air adalah 27. Kaktus Tuan Ky mati membusuk!",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "5",
+        "9 7 5 3 1",
+        "10"
+      ],
+      "prompts": [
+        "Masukkan panjang kebun:",
+        "Masukkan array ketinggian tanah:",
+        "Masukkan batas toleransi air:"
+      ],
+      "expected": "Total volume genangan air adalah 0. Kaktus Tuan Ky selamat!",
+      "full": "Masukkan panjang kebun: 5 Masukkan array ketinggian tanah: 9 7 5 3 1 Masukkan batas toleransi air: 10 Total volume genangan air adalah 0. Kaktus Tuan Ky selamat!",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "6",
+        "20 0 0 0 0 1",
+        "10"
+      ],
+      "prompts": [
+        "Masukkan panjang kebun:",
+        "Masukkan array ketinggian tanah:",
+        "Masukkan batas toleransi air:"
+      ],
+      "expected": "Total volume genangan air adalah 4. Kaktus Tuan Ky selamat!",
+      "full": "Masukkan panjang kebun: 6 Masukkan array ketinggian tanah: 20 0 0 0 0 1 Masukkan batas toleransi air: 10 Total volume genangan air adalah 4. Kaktus Tuan Ky selamat!",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "5",
+        "4 4 4 4 4",
+        "0"
+      ],
+      "prompts": [
+        "Masukkan panjang kebun:",
+        "Masukkan array ketinggian tanah:",
+        "Masukkan batas toleransi air:"
+      ],
+      "expected": "Total volume genangan air adalah 0. Kaktus Tuan Ky selamat!",
+      "full": "Masukkan panjang kebun: 5 Masukkan array ketinggian tanah: 4 4 4 4 4 Masukkan batas toleransi air: 0 Total volume genangan air adalah 0. Kaktus Tuan Ky selamat!",
+      "warnings": []
+    }
+  ]
+}

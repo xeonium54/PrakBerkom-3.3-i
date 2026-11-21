@@ -1,0 +1,96 @@
+{
+  "modul": 2,
+  "soal": 3,
+  "level": "Hard",
+  "nomor": 5,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "Bisnis",
+        "1000",
+        "20",
+        "Eksekutif",
+        "1200",
+        "20"
+      ],
+      "prompts": [
+        "Masukkan jenis Kereta A (Eksekutif/Bisnis/Kargo):",
+        "Masukkan jarak Kereta A (m):",
+        "Masukkan kecepatan Kereta A (m/s):",
+        "Masukkan jenis Kereta B (Eksekutif/Bisnis/Kargo):",
+        "Masukkan jarak Kereta B (m):",
+        "Masukkan kecepatan Kereta B (m/s):"
+      ],
+      "expected": "Konflik terdeteksi! Kereta B diprioritaskan melintas. Kereta A harus berhenti dan menunggu selama 50.0 detik.",
+      "full": "Masukkan jenis Kereta A (Eksekutif/Bisnis/Kargo): Bisnis Masukkan jarak Kereta A (m): 1000 Masukkan kecepatan Kereta A (m/s): 20 Masukkan jenis Kereta B (Eksekutif/Bisnis/Kargo): Eksekutif Masukkan jarak Kereta B (m): 1200 Masukkan kecepatan Kereta B (m/s): 20 Konflik terdeteksi! Kereta B diprioritaskan melintas. Kereta A harus berhenti dan menunggu selama 50.0 detik.",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "Kargo",
+        "800",
+        "10",
+        "Eksekutif",
+        "3000",
+        "25"
+      ],
+      "prompts": [
+        "Masukkan jenis Kereta A (Eksekutif/Bisnis/Kargo):",
+        "Masukkan jarak Kereta A (m):",
+        "Masukkan kecepatan Kereta A (m/s):",
+        "Masukkan jenis Kereta B (Eksekutif/Bisnis/Kargo):",
+        "Masukkan jarak Kereta B (m):",
+        "Masukkan kecepatan Kereta B (m/s):"
+      ],
+      "expected": "Jalur aman. Kereta A melintas duluan tanpa henti.",
+      "full": "Masukkan jenis Kereta A (Eksekutif/Bisnis/Kargo): Kargo Masukkan jarak Kereta A (m): 800 Masukkan kecepatan Kereta A (m/s): 10 Masukkan jenis Kereta B (Eksekutif/Bisnis/Kargo): Eksekutif Masukkan jarak Kereta B (m): 3000 Masukkan kecepatan Kereta B (m/s): 25 Jalur aman. Kereta A melintas duluan tanpa henti.",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "Bisnis",
+        "1500",
+        "25",
+        "Bisnis",
+        "1400",
+        "20"
+      ],
+      "prompts": [
+        "Masukkan jenis Kereta A (Eksekutif/Bisnis/Kargo):",
+        "Masukkan jarak Kereta A (m):",
+        "Masukkan kecepatan Kereta A (m/s):",
+        "Masukkan jenis Kereta B (Eksekutif/Bisnis/Kargo):",
+        "Masukkan jarak Kereta B (m):",
+        "Masukkan kecepatan Kereta B (m/s):"
+      ],
+      "expected": "Konflik terdeteksi! Kereta A diprioritaskan melintas. Kereta B harus berhenti dan menunggu selama 30.0 detik.",
+      "full": "Masukkan jenis Kereta A (Eksekutif/Bisnis/Kargo): Bisnis Masukkan jarak Kereta A (m): 1500 Masukkan kecepatan Kereta A (m/s): 25 Masukkan jenis Kereta B (Eksekutif/Bisnis/Kargo): Bisnis Masukkan jarak Kereta B (m): 1400 Masukkan kecepatan Kereta B (m/s): 20 Konflik terdeteksi! Kereta A diprioritaskan melintas. Kereta B harus berhenti dan menunggu selama 30.0 detik.",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "Kargo",
+        "1200",
+        "20",
+        "Kargo",
+        "1000",
+        "20"
+      ],
+      "prompts": [
+        "Masukkan jenis Kereta A (Eksekutif/Bisnis/Kargo):",
+        "Masukkan jarak Kereta A (m):",
+        "Masukkan kecepatan Kereta A (m/s):",
+        "Masukkan jenis Kereta B (Eksekutif/Bisnis/Kargo):",
+        "Masukkan jarak Kereta B (m):",
+        "Masukkan kecepatan Kereta B (m/s):"
+      ],
+      "expected": "Konflik terdeteksi! Kereta B diprioritaskan melintas. Kereta A harus berhenti dan menunggu selama 30.0 detik.",
+      "full": "Masukkan jenis Kereta A (Eksekutif/Bisnis/Kargo): Kargo Masukkan jarak Kereta A (m): 1200 Masukkan kecepatan Kereta A (m/s): 20 Masukkan jenis Kereta B (Eksekutif/Bisnis/Kargo): Kargo Masukkan jarak Kereta B (m): 1000 Masukkan kecepatan Kereta B (m/s): 20 Konflik terdeteksi! Kereta B diprioritaskan melintas. Kereta A harus berhenti dan menunggu selama 30.0 detik.",
+      "warnings": []
+    }
+  ]
+}

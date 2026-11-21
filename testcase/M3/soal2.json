@@ -1,0 +1,92 @@
+{
+  "modul": 3,
+  "soal": 2,
+  "level": "Medium",
+  "nomor": 12,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "12",
+        "1800",
+        "1980",
+        "2160",
+        "1900"
+      ],
+      "prompts": [
+        "Masukkan persentase trailing stop:",
+        "Masukkan harga saham hari ke-1:",
+        "Masukkan harga saham hari ke-2:",
+        "Masukkan harga saham hari ke-3:",
+        "Masukkan harga saham hari ke-4:"
+      ],
+      "expected": "Trailing stop ter-trigger pada hari ke-4 dengan harga Rp1900. Harga puncak: Rp2160. Batas jual (trailing stop 12%): Rp1900.8. Keuntungan: Rp100.",
+      "full": "Masukkan persentase trailing stop: 12 Masukkan harga saham hari ke-1: 1800 Masukkan harga saham hari ke-2: 1980 Masukkan harga saham hari ke-3: 2160 Masukkan harga saham hari ke-4: 1900 Trailing stop ter-trigger pada hari ke-4 dengan harga Rp1900. Harga puncak: Rp2160. Batas jual (trailing stop 12%): Rp1900.8. Keuntungan: Rp100.",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "10",
+        "900",
+        "950",
+        "1000",
+        "1080",
+        "1150",
+        "1100",
+        "1250",
+        "1300",
+        "1170"
+      ],
+      "prompts": [
+        "Masukkan persentase trailing stop:",
+        "Masukkan harga saham hari ke-1:",
+        "Masukkan harga saham hari ke-2:",
+        "Masukkan harga saham hari ke-3:",
+        "Masukkan harga saham hari ke-4:",
+        "Masukkan harga saham hari ke-5:",
+        "Masukkan harga saham hari ke-6:",
+        "Masukkan harga saham hari ke-7:",
+        "Masukkan harga saham hari ke-8:",
+        "Masukkan harga saham hari ke-9:"
+      ],
+      "expected": "Trailing stop ter-trigger pada hari ke-9 dengan harga Rp1170. Harga puncak: Rp1300. Batas jual (trailing stop 10%): Rp1170.0. Keuntungan: Rp270.",
+      "full": "Masukkan persentase trailing stop: 10 Masukkan harga saham hari ke-1: 900 Masukkan harga saham hari ke-2: 950 Masukkan harga saham hari ke-3: 1000 Masukkan harga saham hari ke-4: 1080 Masukkan harga saham hari ke-5: 1150 Masukkan harga saham hari ke-6: 1100 Masukkan harga saham hari ke-7: 1250 Masukkan harga saham hari ke-8: 1300 Masukkan harga saham hari ke-9: 1170 Trailing stop ter-trigger pada hari ke-9 dengan harga Rp1170. Harga puncak: Rp1300. Batas jual (trailing stop 10%): Rp1170.0. Keuntungan: Rp270.",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "15",
+        "2600",
+        "2200"
+      ],
+      "prompts": [
+        "Masukkan persentase trailing stop:",
+        "Masukkan harga saham hari ke-1:",
+        "Masukkan harga saham hari ke-2:"
+      ],
+      "expected": "Trailing stop ter-trigger pada hari ke-2 dengan harga Rp2200. Harga puncak: Rp2600. Batas jual (trailing stop 15%): Rp2210.0. Kerugian: Rp400.",
+      "full": "Masukkan persentase trailing stop: 15 Masukkan harga saham hari ke-1: 2600 Masukkan harga saham hari ke-2: 2200 Trailing stop ter-trigger pada hari ke-2 dengan harga Rp2200. Harga puncak: Rp2600. Batas jual (trailing stop 15%): Rp2210.0. Kerugian: Rp400.",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "25",
+        "800",
+        "1000",
+        "750"
+      ],
+      "prompts": [
+        "Masukkan persentase trailing stop:",
+        "Masukkan harga saham hari ke-1:",
+        "Masukkan harga saham hari ke-2:",
+        "Masukkan harga saham hari ke-3:"
+      ],
+      "expected": "Trailing stop ter-trigger pada hari ke-3 dengan harga Rp750. Harga puncak: Rp1000. Batas jual (trailing stop 25%): Rp750.0. Kerugian: Rp50.",
+      "full": "Masukkan persentase trailing stop: 25 Masukkan harga saham hari ke-1: 800 Masukkan harga saham hari ke-2: 1000 Masukkan harga saham hari ke-3: 750 Trailing stop ter-trigger pada hari ke-3 dengan harga Rp750. Harga puncak: Rp1000. Batas jual (trailing stop 25%): Rp750.0. Kerugian: Rp50.",
+      "warnings": []
+    }
+  ]
+}

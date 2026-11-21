@@ -1,0 +1,86 @@
+{
+  "modul": 3,
+  "soal": 1,
+  "level": "Easy",
+  "nomor": 9,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "70000",
+        "3",
+        "-28000",
+        "-52000",
+        "40000"
+      ],
+      "prompts": [
+        "Masukkan saldo awal (Rp):",
+        "Masukkan jumlah transaksi (N):",
+        "Masukkan nilai transaksi ke-1:",
+        "Masukkan nilai transaksi ke-2:",
+        "Masukkan nilai transaksi ke-3:"
+      ],
+      "expected": "Saldo setelah transaksi ke-1: Rp42000. Saldo setelah transaksi ke-2: Rp-10000. Saldo setelah transaksi ke-3: Rp30000. Saldo Tuan Mik pertama kali negatif pada transaksi ke-2. Total pemasukan: Rp40000. Total pengeluaran: Rp-80000.",
+      "full": "Masukkan saldo awal (Rp): 70000 Masukkan jumlah transaksi (N): 3 Masukkan nilai transaksi ke-1: -28000 Masukkan nilai transaksi ke-2: -52000 Masukkan nilai transaksi ke-3: 40000 Saldo setelah transaksi ke-1: Rp42000. Saldo setelah transaksi ke-2: Rp-10000. Saldo setelah transaksi ke-3: Rp30000. Saldo Tuan Mik pertama kali negatif pada transaksi ke-2. Total pemasukan: Rp40000. Total pengeluaran: Rp-80000.",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "18000",
+        "3",
+        "7000",
+        "-5000",
+        "4000"
+      ],
+      "prompts": [
+        "Masukkan saldo awal (Rp):",
+        "Masukkan jumlah transaksi (N):",
+        "Masukkan nilai transaksi ke-1:",
+        "Masukkan nilai transaksi ke-2:",
+        "Masukkan nilai transaksi ke-3:"
+      ],
+      "expected": "Saldo setelah transaksi ke-1: Rp25000. Saldo setelah transaksi ke-2: Rp20000. Saldo setelah transaksi ke-3: Rp24000. Saldo Tuan Mik tidak pernah negatif selama 3 transaksi. Total pemasukan: Rp11000. Total pengeluaran: Rp-5000.",
+      "full": "Masukkan saldo awal (Rp): 18000 Masukkan jumlah transaksi (N): 3 Masukkan nilai transaksi ke-1: 7000 Masukkan nilai transaksi ke-2: -5000 Masukkan nilai transaksi ke-3: 4000 Saldo setelah transaksi ke-1: Rp25000. Saldo setelah transaksi ke-2: Rp20000. Saldo setelah transaksi ke-3: Rp24000. Saldo Tuan Mik tidak pernah negatif selama 3 transaksi. Total pemasukan: Rp11000. Total pengeluaran: Rp-5000.",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "3000",
+        "2",
+        "-6000",
+        "9000"
+      ],
+      "prompts": [
+        "Masukkan saldo awal (Rp):",
+        "Masukkan jumlah transaksi (N):",
+        "Masukkan nilai transaksi ke-1:",
+        "Masukkan nilai transaksi ke-2:"
+      ],
+      "expected": "Saldo setelah transaksi ke-1: Rp-3000. Saldo setelah transaksi ke-2: Rp6000. Saldo Tuan Mik pertama kali negatif pada transaksi ke-1. Total pemasukan: Rp9000. Total pengeluaran: Rp-6000.",
+      "full": "Masukkan saldo awal (Rp): 3000 Masukkan jumlah transaksi (N): 2 Masukkan nilai transaksi ke-1: -6000 Masukkan nilai transaksi ke-2: 9000 Saldo setelah transaksi ke-1: Rp-3000. Saldo setelah transaksi ke-2: Rp6000. Saldo Tuan Mik pertama kali negatif pada transaksi ke-1. Total pemasukan: Rp9000. Total pengeluaran: Rp-6000.",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "9000",
+        "3",
+        "4000",
+        "6000",
+        "2000"
+      ],
+      "prompts": [
+        "Masukkan saldo awal (Rp):",
+        "Masukkan jumlah transaksi (N):",
+        "Masukkan nilai transaksi ke-1:",
+        "Masukkan nilai transaksi ke-2:",
+        "Masukkan nilai transaksi ke-3:"
+      ],
+      "expected": "Saldo setelah transaksi ke-1: Rp13000. Saldo setelah transaksi ke-2: Rp19000. Saldo setelah transaksi ke-3: Rp21000. Saldo Tuan Mik tidak pernah negatif selama 3 transaksi. Total pemasukan: Rp12000. Total pengeluaran: Rp0.",
+      "full": "Masukkan saldo awal (Rp): 9000 Masukkan jumlah transaksi (N): 3 Masukkan nilai transaksi ke-1: 4000 Masukkan nilai transaksi ke-2: 6000 Masukkan nilai transaksi ke-3: 2000 Saldo setelah transaksi ke-1: Rp13000. Saldo setelah transaksi ke-2: Rp19000. Saldo setelah transaksi ke-3: Rp21000. Saldo Tuan Mik tidak pernah negatif selama 3 transaksi. Total pemasukan: Rp12000. Total pengeluaran: Rp0.",
+      "warnings": []
+    }
+  ]
+}

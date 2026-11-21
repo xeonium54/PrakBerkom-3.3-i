@@ -1,0 +1,72 @@
+{
+  "modul": 2,
+  "soal": 2,
+  "level": "Medium",
+  "nomor": 10,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "2",
+        "y",
+        "n"
+      ],
+      "prompts": [
+        "Masukkan durasi parkir (jam):",
+        "mobil listrik? (y/n):",
+        "akhir pekan? (y/n):"
+      ],
+      "expected": "Total tarif parkir adalah Rp5000",
+      "full": "Masukkan durasi parkir (jam): 2 Apakah mobil listrik? (y/n): y Apakah akhir pekan? (y/n): n Total tarif parkir adalah Rp5000",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "6",
+        "y",
+        "y"
+      ],
+      "prompts": [
+        "Masukkan durasi parkir (jam):",
+        "mobil listrik? (y/n):",
+        "akhir pekan? (y/n):"
+      ],
+      "expected": "Total tarif parkir adalah Rp14400.0",
+      "full": "Masukkan durasi parkir (jam): 6 Apakah mobil listrik? (y/n): y Apakah akhir pekan? (y/n): y Total tarif parkir adalah Rp14400.0",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "10",
+        "n",
+        "n"
+      ],
+      "prompts": [
+        "Masukkan durasi parkir (jam):",
+        "mobil listrik? (y/n):",
+        "akhir pekan? (y/n):"
+      ],
+      "expected": "Total tarif parkir adalah Rp25000",
+      "full": "Masukkan durasi parkir (jam): 10 Apakah mobil listrik? (y/n): n Apakah akhir pekan? (y/n): n Total tarif parkir adalah Rp25000",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "3",
+        "y",
+        "y"
+      ],
+      "prompts": [
+        "Masukkan durasi parkir (jam):",
+        "mobil listrik? (y/n):",
+        "akhir pekan? (y/n):"
+      ],
+      "expected": "Total tarif parkir adalah Rp3600.0",
+      "full": "Masukkan durasi parkir (jam): 3 Apakah mobil listrik? (y/n): y Apakah akhir pekan? (y/n): y Total tarif parkir adalah Rp3600.0",
+      "warnings": []
+    }
+  ]
+}

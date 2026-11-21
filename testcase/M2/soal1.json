@@ -1,0 +1,56 @@
+{
+  "modul": 2,
+  "soal": 1,
+  "level": "Easy",
+  "nomor": 6,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "0"
+      ],
+      "prompts": [
+        "Masukkan skor:"
+      ],
+      "expected": "Skor valid, dapat diinput ke sistem.",
+      "full": "Masukkan skor: 0 Skor valid, dapat diinput ke sistem.",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "-1"
+      ],
+      "prompts": [
+        "Masukkan skor:"
+      ],
+      "expected": "Skor tidak valid, perlu diperiksa ulang.",
+      "full": "Masukkan skor: -1 Skor tidak valid, perlu diperiksa ulang.",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "50"
+      ],
+      "prompts": [
+        "Masukkan skor:"
+      ],
+      "expected": "Skor valid, dapat diinput ke sistem.",
+      "full": "Masukkan skor: 50 Skor valid, dapat diinput ke sistem.",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "150"
+      ],
+      "prompts": [
+        "Masukkan skor:"
+      ],
+      "expected": "Skor tidak valid, perlu diperiksa ulang.",
+      "full": "Masukkan skor: 150 Skor tidak valid, perlu diperiksa ulang.",
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "modul": 1,
+  "soal": 1,
+  "level": "Easy",
+  "nomor": 3,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "75",
+        "10",
+        "1600"
+      ],
+      "prompts": [
+        "Masukkan daya lampu (watt):",
+        "Masukkan lama lampu menyala (jam):",
+        "Masukkan tarif listrik (rupiah per kWh):"
+      ],
+      "expected": "Biaya listrik yang terbuang adalah Rp1200",
+      "full": "Masukkan daya lampu (watt): 75 Masukkan lama lampu menyala (jam): 10 Masukkan tarif listrik (rupiah per kWh): 1600 Biaya listrik yang terbuang adalah Rp1200",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "200",
+        "0.5",
+        "1800"
+      ],
+      "prompts": [
+        "Masukkan daya lampu (watt):",
+        "Masukkan lama lampu menyala (jam):",
+        "Masukkan tarif listrik (rupiah per kWh):"
+      ],
+      "expected": "Biaya listrik yang terbuang adalah Rp180",
+      "full": "Masukkan daya lampu (watt): 200 Masukkan lama lampu menyala (jam): 0.5 Masukkan tarif listrik (rupiah per kWh): 1800 Biaya listrik yang terbuang adalah Rp180",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "500",
+        "72",
+        "1700"
+      ],
+      "prompts": [
+        "Masukkan daya lampu (watt):",
+        "Masukkan lama lampu menyala (jam):",
+        "Masukkan tarif listrik (rupiah per kWh):"
+      ],
+      "expected": "Biaya listrik yang terbuang adalah Rp61200",
+      "full": "Masukkan daya lampu (watt): 500 Masukkan lama lampu menyala (jam): 72 Masukkan tarif listrik (rupiah per kWh): 1700 Biaya listrik yang terbuang adalah Rp61200",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "10",
+        "200",
+        "1500"
+      ],
+      "prompts": [
+        "Masukkan daya lampu (watt):",
+        "Masukkan lama lampu menyala (jam):",
+        "Masukkan tarif listrik (rupiah per kWh):"
+      ],
+      "expected": "Biaya listrik yang terbuang adalah Rp3000",
+      "full": "Masukkan daya lampu (watt): 10 Masukkan lama lampu menyala (jam): 200 Masukkan tarif listrik (rupiah per kWh): 1500 Biaya listrik yang terbuang adalah Rp3000",
+      "warnings": []
+    }
+  ]
+}

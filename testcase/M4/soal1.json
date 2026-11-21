@@ -1,0 +1,64 @@
+{
+  "modul": 4,
+  "soal": 1,
+  "level": "Easy",
+  "nomor": 4,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "1920",
+        "1080"
+      ],
+      "prompts": [
+        "Masukkan lebar foto (piksel):",
+        "Masukkan tinggi foto (piksel):"
+      ],
+      "expected": "Aspect ratio disederhanakan menjadi 16:9",
+      "full": "Masukkan lebar foto (piksel): 1920 Masukkan tinggi foto (piksel): 1080 Aspect ratio disederhanakan menjadi 16:9",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "13",
+        "17"
+      ],
+      "prompts": [
+        "Masukkan lebar foto (piksel):",
+        "Masukkan tinggi foto (piksel):"
+      ],
+      "expected": "Aspect ratio disederhanakan menjadi 13:17",
+      "full": "Masukkan lebar foto (piksel): 13 Masukkan tinggi foto (piksel): 17 Aspect ratio disederhanakan menjadi 13:17",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "360",
+        "240"
+      ],
+      "prompts": [
+        "Masukkan lebar foto (piksel):",
+        "Masukkan tinggi foto (piksel):"
+      ],
+      "expected": "Aspect ratio disederhanakan menjadi 3:2",
+      "full": "Masukkan lebar foto (piksel): 360 Masukkan tinggi foto (piksel): 240 Aspect ratio disederhanakan menjadi 3:2",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "5000",
+        "5000"
+      ],
+      "prompts": [
+        "Masukkan lebar foto (piksel):",
+        "Masukkan tinggi foto (piksel):"
+      ],
+      "expected": "Aspect ratio disederhanakan menjadi 1:1",
+      "full": "Masukkan lebar foto (piksel): 5000 Masukkan tinggi foto (piksel): 5000 Aspect ratio disederhanakan menjadi 1:1",
+      "warnings": []
+    }
+  ]
+}

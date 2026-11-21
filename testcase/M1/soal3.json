@@ -1,0 +1,120 @@
+{
+  "modul": 1,
+  "soal": 3,
+  "level": "Hard",
+  "nomor": 4,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "8",
+        "0",
+        "17",
+        "30",
+        "480",
+        "1000",
+        "1.5",
+        "25000",
+        "360"
+      ],
+      "prompts": [
+        "Masukkan jam masuk:",
+        "Masukkan menit masuk:",
+        "Masukkan jam keluar:",
+        "Masukkan menit keluar:",
+        "Masukkan batas shift normal (menit):",
+        "Masukkan upah per menit:",
+        "Masukkan pengali upah lembur:",
+        "Masukkan tunjangan makan:",
+        "Masukkan batas minimal tunjangan (menit):"
+      ],
+      "expected": "Total durasi kerja: 9 jam 30 menit Menit kerja normal: 480 menit Menit kerja lembur: 90 menit Tunjangan makan: Rp25000.00 Total upah diterima: Rp640000.00",
+      "full": "Masukkan jam masuk: 8 Masukkan menit masuk: 0 Masukkan jam keluar: 17 Masukkan menit keluar: 30 Masukkan batas shift normal (menit): 480 Masukkan upah per menit: 1000 Masukkan pengali upah lembur: 1.5 Masukkan tunjangan makan: 25000 Masukkan batas minimal tunjangan (menit): 360 Total durasi kerja: 9 jam 30 menit Menit kerja normal: 480 menit Menit kerja lembur: 90 menit Tunjangan makan: Rp25000.00 Total upah diterima: Rp640000.00",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "9",
+        "15",
+        "15",
+        "45",
+        "480",
+        "1200",
+        "2.0",
+        "20000",
+        "300"
+      ],
+      "prompts": [
+        "Masukkan jam masuk:",
+        "Masukkan menit masuk:",
+        "Masukkan jam keluar:",
+        "Masukkan menit keluar:",
+        "Masukkan batas shift normal (menit):",
+        "Masukkan upah per menit:",
+        "Masukkan pengali upah lembur:",
+        "Masukkan tunjangan makan:",
+        "Masukkan batas minimal tunjangan (menit):"
+      ],
+      "expected": "Total durasi kerja: 6 jam 30 menit Menit kerja normal: 390 menit Menit kerja lembur: 0 menit Tunjangan makan: Rp20000.00 Total upah diterima: Rp488000.00",
+      "full": "Masukkan jam masuk: 9 Masukkan menit masuk: 15 Masukkan jam keluar: 15 Masukkan menit keluar: 45 Masukkan batas shift normal (menit): 480 Masukkan upah per menit: 1200 Masukkan pengali upah lembur: 2.0 Masukkan tunjangan makan: 20000 Masukkan batas minimal tunjangan (menit): 300 Total durasi kerja: 6 jam 30 menit Menit kerja normal: 390 menit Menit kerja lembur: 0 menit Tunjangan makan: Rp20000.00 Total upah diterima: Rp488000.00",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "13",
+        "0",
+        "16",
+        "30",
+        "300",
+        "1250.5",
+        "1.75",
+        "30000",
+        "240"
+      ],
+      "prompts": [
+        "Masukkan jam masuk:",
+        "Masukkan menit masuk:",
+        "Masukkan jam keluar:",
+        "Masukkan menit keluar:",
+        "Masukkan batas shift normal (menit):",
+        "Masukkan upah per menit:",
+        "Masukkan pengali upah lembur:",
+        "Masukkan tunjangan makan:",
+        "Masukkan batas minimal tunjangan (menit):"
+      ],
+      "expected": "Total durasi kerja: 3 jam 30 menit Menit kerja normal: 210 menit Menit kerja lembur: 0 menit Tunjangan makan: Rp0.00 Total upah diterima: Rp262605.00",
+      "full": "Masukkan jam masuk: 13 Masukkan menit masuk: 0 Masukkan jam keluar: 16 Masukkan menit keluar: 30 Masukkan batas shift normal (menit): 300 Masukkan upah per menit: 1250.5 Masukkan pengali upah lembur: 1.75 Masukkan tunjangan makan: 30000 Masukkan batas minimal tunjangan (menit): 240 Total durasi kerja: 3 jam 30 menit Menit kerja normal: 210 menit Menit kerja lembur: 0 menit Tunjangan makan: Rp0.00 Total upah diterima: Rp262605.00",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "7",
+        "30",
+        "16",
+        "0",
+        "420",
+        "2000.0",
+        "2.5",
+        "35000.0",
+        "480"
+      ],
+      "prompts": [
+        "Masukkan jam masuk:",
+        "Masukkan menit masuk:",
+        "Masukkan jam keluar:",
+        "Masukkan menit keluar:",
+        "Masukkan batas shift normal (menit):",
+        "Masukkan upah per menit:",
+        "Masukkan pengali upah lembur:",
+        "Masukkan tunjangan makan:",
+        "Masukkan batas minimal tunjangan (menit):"
+      ],
+      "expected": "Total durasi kerja: 8 jam 30 menit Menit kerja normal: 420 menit Menit kerja lembur: 90 menit Tunjangan makan: Rp35000.00 Total upah diterima: Rp1325000.00",
+      "full": "Masukkan jam masuk: 7 Masukkan menit masuk: 30 Masukkan jam keluar: 16 Masukkan menit keluar: 0 Masukkan batas shift normal (menit): 420 Masukkan upah per menit: 2000.0 Masukkan pengali upah lembur: 2.5 Masukkan tunjangan makan: 35000.0 Masukkan batas minimal tunjangan (menit): 480 Total durasi kerja: 8 jam 30 menit Menit kerja normal: 420 menit Menit kerja lembur: 90 menit Tunjangan makan: Rp35000.00 Total upah diterima: Rp1325000.00",
+      "warnings": []
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "modul": 1,
+  "soal": 2,
+  "level": "Medium",
+  "nomor": 12,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "15",
+        "250",
+        "25",
+        "250",
+        "35",
+        "500"
+      ],
+      "prompts": [
+        "Masukkan konsentrasi larutan pertama (persen):",
+        "Masukkan volume larutan pertama (ml):",
+        "Masukkan konsentrasi larutan kedua (persen):",
+        "Masukkan volume larutan kedua (ml):",
+        "Masukkan konsentrasi larutan ketiga (persen):",
+        "Masukkan volume larutan ketiga (ml):"
+      ],
+      "expected": "Konsentrasi akhir larutan campuran adalah 27.5 persen",
+      "full": "Masukkan konsentrasi larutan pertama (persen): 15 Masukkan volume larutan pertama (ml): 250 Masukkan konsentrasi larutan kedua (persen): 25 Masukkan volume larutan kedua (ml): 250 Masukkan konsentrasi larutan ketiga (persen): 35 Masukkan volume larutan ketiga (ml): 500 Konsentrasi akhir larutan campuran adalah 27.5 persen",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "20",
+        "100",
+        "20",
+        "200",
+        "20",
+        "300"
+      ],
+      "prompts": [
+        "Masukkan konsentrasi larutan pertama (persen):",
+        "Masukkan volume larutan pertama (ml):",
+        "Masukkan konsentrasi larutan kedua (persen):",
+        "Masukkan volume larutan kedua (ml):",
+        "Masukkan konsentrasi larutan ketiga (persen):",
+        "Masukkan volume larutan ketiga (ml):"
+      ],
+      "expected": "Konsentrasi akhir larutan campuran adalah 20.0 persen",
+      "full": "Masukkan konsentrasi larutan pertama (persen): 20 Masukkan volume larutan pertama (ml): 100 Masukkan konsentrasi larutan kedua (persen): 20 Masukkan volume larutan kedua (ml): 200 Masukkan konsentrasi larutan ketiga (persen): 20 Masukkan volume larutan ketiga (ml): 300 Konsentrasi akhir larutan campuran adalah 20.0 persen",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "10",
+        "500",
+        "50",
+        "0",
+        "30",
+        "100"
+      ],
+      "prompts": [
+        "Masukkan konsentrasi larutan pertama (persen):",
+        "Masukkan volume larutan pertama (ml):",
+        "Masukkan konsentrasi larutan kedua (persen):",
+        "Masukkan volume larutan kedua (ml):",
+        "Masukkan konsentrasi larutan ketiga (persen):",
+        "Masukkan volume larutan ketiga (ml):"
+      ],
+      "expected": "Konsentrasi akhir larutan campuran adalah 13.33 persen",
+      "full": "Masukkan konsentrasi larutan pertama (persen): 10 Masukkan volume larutan pertama (ml): 500 Masukkan konsentrasi larutan kedua (persen): 50 Masukkan volume larutan kedua (ml): 0 Masukkan konsentrasi larutan ketiga (persen): 30 Masukkan volume larutan ketiga (ml): 100 Konsentrasi akhir larutan campuran adalah 13.33 persen",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "8",
+        "150",
+        "8",
+        "150",
+        "8",
+        "200"
+      ],
+      "prompts": [
+        "Masukkan konsentrasi larutan pertama (persen):",
+        "Masukkan volume larutan pertama (ml):",
+        "Masukkan konsentrasi larutan kedua (persen):",
+        "Masukkan volume larutan kedua (ml):",
+        "Masukkan konsentrasi larutan ketiga (persen):",
+        "Masukkan volume larutan ketiga (ml):"
+      ],
+      "expected": "Konsentrasi akhir larutan campuran adalah 8.0 persen",
+      "full": "Masukkan konsentrasi larutan pertama (persen): 8 Masukkan volume larutan pertama (ml): 150 Masukkan konsentrasi larutan kedua (persen): 8 Masukkan volume larutan kedua (ml): 150 Masukkan konsentrasi larutan ketiga (persen): 8 Masukkan volume larutan ketiga (ml): 200 Konsentrasi akhir larutan campuran adalah 8.0 persen",
+      "warnings": []
+    }
+  ]
+}

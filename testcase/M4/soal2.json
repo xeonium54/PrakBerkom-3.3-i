@@ -1,0 +1,80 @@
+{
+  "modul": 4,
+  "soal": 2,
+  "level": "Medium",
+  "nomor": 11,
+  "tcs": [
+    {
+      "tc": 2,
+      "inputs": [
+        "3",
+        "sandi",
+        "13579",
+        "2468097531"
+      ],
+      "prompts": [
+        "Masukkan jumlah kandidat PIN (N):",
+        "Kandidat PIN ke-1:",
+        "Kandidat PIN ke-2:",
+        "Kandidat PIN ke-3:"
+      ],
+      "expected": "PIN ke-3 skornya 55, tergolong Kuat. Rekap: Kuat 1, Sedang 1, Lemah 1",
+      "full": "Masukkan jumlah kandidat PIN (N): 3 Kandidat PIN ke-1: sandi PIN ke-1 skornya 0, tergolong Lemah. Kandidat PIN ke-2: 13579 PIN ke-2 skornya 20, tergolong Sedang. Kandidat PIN ke-3: 2468097531 PIN ke-3 skornya 55, tergolong Kuat. Rekap: Kuat 1, Sedang 1, Lemah 1",
+      "warnings": []
+    },
+    {
+      "tc": 3,
+      "inputs": [
+        "3",
+        "Nomor102030",
+        "Z9",
+        "Katasandi"
+      ],
+      "prompts": [
+        "Masukkan jumlah kandidat PIN (N):",
+        "Kandidat PIN ke-1:",
+        "Kandidat PIN ke-2:",
+        "Kandidat PIN ke-3:"
+      ],
+      "expected": "PIN ke-3 skornya 25, tergolong Sedang. Rekap: Kuat 0, Sedang 2, Lemah 1",
+      "full": "Masukkan jumlah kandidat PIN (N): 3 Kandidat PIN ke-1: Nomor102030 PIN ke-1 skornya 36, tergolong Sedang. Kandidat PIN ke-2: Z9 PIN ke-2 skornya 14, tergolong Lemah. Kandidat PIN ke-3: Katasandi PIN ke-3 skornya 25, tergolong Sedang. Rekap: Kuat 0, Sedang 2, Lemah 1",
+      "warnings": []
+    },
+    {
+      "tc": 4,
+      "inputs": [
+        "3",
+        "Rahasia2468",
+        "XYZ97531",
+        "Mik1928375a"
+      ],
+      "prompts": [
+        "Masukkan jumlah kandidat PIN (N):",
+        "Kandidat PIN ke-1:",
+        "Kandidat PIN ke-2:",
+        "Kandidat PIN ke-3:"
+      ],
+      "expected": "PIN ke-3 skornya 53, tergolong Kuat. Rekap: Kuat 3, Sedang 0, Lemah 0",
+      "full": "Masukkan jumlah kandidat PIN (N): 3 Kandidat PIN ke-1: Rahasia2468 PIN ke-1 skornya 41, tergolong Kuat. Kandidat PIN ke-2: XYZ97531 PIN ke-2 skornya 45, tergolong Kuat. Kandidat PIN ke-3: Mik1928375a PIN ke-3 skornya 53, tergolong Kuat. Rekap: Kuat 3, Sedang 0, Lemah 0",
+      "warnings": []
+    },
+    {
+      "tc": 5,
+      "inputs": [
+        "3",
+        "xy",
+        "abcDE1234567",
+        "Kode1a9c34d6"
+      ],
+      "prompts": [
+        "Masukkan jumlah kandidat PIN (N):",
+        "Kandidat PIN ke-1:",
+        "Kandidat PIN ke-2:",
+        "Kandidat PIN ke-3:"
+      ],
+      "expected": "PIN ke-3 skornya 40, tergolong Kuat. Rekap: Kuat 1, Sedang 1, Lemah 1",
+      "full": "Masukkan jumlah kandidat PIN (N): 3 Kandidat PIN ke-1: xy PIN ke-1 skornya 0, tergolong Lemah. Kandidat PIN ke-2: abcDE1234567 PIN ke-2 skornya 23, tergolong Sedang. Kandidat PIN ke-3: Kode1a9c34d6 PIN ke-3 skornya 40, tergolong Kuat. Rekap: Kuat 1, Sedang 1, Lemah 1",
+      "warnings": []
+    }
+  ]
+}
